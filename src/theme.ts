@@ -1,0 +1,17 @@
+export const colors = {
+  background: '#F4F7FB',
+  surface: '#FFFFFF',
+  primary: '#336397',
+  accent: '#FBC3C8',
+  text: '#23364D',
+  muted: '#718096',
+  border: '#D9E2EC',
+  danger: '#B42318',
+  online: '#2ECC71',
+  offline: '#718096',
+  sentBubble: '#336397',
+  receivedBubble: '#FFFFFF',
+  sentText: '#FFFFFF',
+  receivedText: '#23364D',
+  unreadBadge: '#E74C3C',
+};

@@ -1,5 +1,16 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+## Firebase setup
+
+1. Create a Firebase project and register an Android/iOS app.
+2. Enable Email/Password under Firebase Authentication and create a Realtime Database.
+3. Copy the Firebase web app configuration into `src/services/firebaseConfig.ts`.
+4. Configure Realtime Database rules so signed-in users can access only permitted user and chat data. Do not use public read/write rules.
+5. Run `npm install`, then start Metro with `npm start`.
+
+The app remains on a setup screen until the placeholder values in
+`src/services/firebaseConfig.ts` are replaced with a real Firebase configuration.
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
